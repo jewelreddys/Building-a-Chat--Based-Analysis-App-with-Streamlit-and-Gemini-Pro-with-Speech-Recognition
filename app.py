@@ -484,7 +484,7 @@ def run_data_analysis_app():
 
     # Setup Gemini Pro
     try:
-        genai.configure(api_key=os.getenv('AIzaSyCrPR2EvuFuzt2SYMU6PMjD0kLjsohxSXU'))
+        genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
         model = genai.GenerativeModel("gemini-1.5-pro-latest")
     except Exception as e:
         st.error(f"Error initializing Gemini Pro: {str(e)}")
