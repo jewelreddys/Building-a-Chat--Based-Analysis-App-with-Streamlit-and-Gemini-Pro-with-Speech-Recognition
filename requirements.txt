@@ -1,8 +1,0 @@
-streamlit
-pandas
-google-generativeai
-matplotlib
-seaborn
-chardet
-SpeechRecognition
-PyAudio
